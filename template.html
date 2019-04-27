@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <title>Red Velvet - ReVeluvPedia</title>
+  <link rel="shortcut icon" href="https://i.imgur.com/bWm7fKR.png" type="image/png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Dekko|Exo+2" rel="stylesheet">
+  <link rel="stylesheet" href="scss/resetstylesheet.css">
+  <link rel="stylesheet" href="scss/RedVelvet.css">
+</head>
+<body>
+  <main>
+    <section class="imagebackground">
+      <div class="imagecoloroverlay"></div>
+      <img src="https://i.imgur.com/UhTM7JA.jpg" alt="Red Velvet">
+    </section>
+    <section class="navigation">
+      <section class="hamburgermenu">
+        <div class="hamburgermenuopen" onclick="openNav()">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="hamburgermenuclose" onclick="closeNav()">
+          <i class="fas fa-times"></i>
+        </div>
+      </section>
+      <section class="logo">
+          <a href=""><img src="https://i.imgur.com/IcXOpdz.png" alt="ReVeluvPedia"></a> 
+      </section>
+      <section class="navbar">
+        <a href="index.html"><div>Home</div></a>
+        <a href="RedVelvet.html"><div class="active">Red Velvet</div></a>
+        <a href="Upcoming.html"><div>Upcoming</div></a>
+        <a href="Updates.html"><div>Updates</div></a>
+        <a href="Memes.html"><div>Memes</div></a>
+        <a href="Archives.html"><div>Archives</div></a>
+        <a href="Links.html"><div>Links</div></a>
+        <a href="Extra.html"><div>Extra</div></a>
+      </section>
+      <section class="search">
+        <div class="searchicon">
+          <div class="searchopen" id="searchopen" onclick="searchOpen()">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="searchclose" id="searchclose" onclick="searchClose()">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="searchbar" id="searchbar">
+          <script>
+              (function() {
+                var cx = '017890203959589198989:mdgsyt8pofk';
+                var gcse = document.createElement('script');
+                gcse.type = 'text/javascript';
+                gcse.async = true;
+                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:search></gcse:search>
+        </div>
+      </section>
+    </section>
+    <section class="footer">
+      <div class="footermadewith">Made with <i class="fas fa-heart"></i> for ReVeluv Fandom. This is a non-profit ReVeluv community project by <a href="" target="_blank">MunchSeulBear</a></div>
+      <div class="contactuscontainer">
+        <div class="contactus">Contact Us:&nbsp;&nbsp;&nbsp;<a href="https://twitter.com/ReVeluvPedia" target="_blank"><i class="fab fa-twitter"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/ReVeluvPedia/" target="_blank"><i class="fab fa-instagram"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.youtube.com/channel/ReVeluvPedia" target="_blank"><i class="fab fa-youtube"></i></a>&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/ReVelPedia" target="_blank"><i class="fab fa-facebook"></i></a>&nbsp;&nbsp;&nbsp;<a href="mailto:reveluvpedia@gmail.com" target="_top"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <a href="LICENCE.md" target="_blank"><i class="far fa-copyright"></i>&nbsp;&nbsp;2019 MunchSeulBear, MIT LICENCE</a>
+      </div>
+    </section>
+  </main>
+  <script src="js/hamburgermenu.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>
