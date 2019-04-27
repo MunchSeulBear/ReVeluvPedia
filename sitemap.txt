@@ -23,19 +23,19 @@
             5) 2018 (2018.html)
             6) 2019 (2019.html)
         5) Achievements (Achievements.html)
-    3) Upcoming (Upcoming.html)
-    4) Updates (Updates.html)
-    5) Memes (Memes.html)
+    3) Updates (Updates.html)
+    4) Memes (Memes.html)
         1) Images (Images.html)
         2) Videos (Videos.html)
         3) GIFs (GIFs.html)
         4) Twitter Posts (Twitter_Posts.html)
         5) Facebook Posts (Facebook_Posts.html)
-    6) Archives (Archives.html)
-    7) Links (Links.html)
-    8) Extra (Extra.html)
+    5) Archives (Archives.html)
+    6) Links (Links.html)
+    7) Extra (Extra.html)
         1) Contribute
         2) Suggestions
         3) Meet The Team
         4) Credits
+    8) Credits
 2) Error 404 Page (Error404.html)
